@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/***************
+Header Area starts
+***************/
+
+.mobile-app-banner{
+    background-image: url(img/26167.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    background-repeat: none;
+}
+
+.mobile-app-banner-content{
+    color: white;
+    margin-top: 200px;
+}
+
+.mobile-app-banner-content h1{
+    font-size: 56px;
+    color: black;
+    font-weight: 600;
+}
+.mobile-app-banner-content p{
+    font-size: 18px;
+    color: black;
+    line-height: 40px;
+    margin: 6px 12px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-image: 4px;
+}
+
+.buttons .btn{
+    padding: 18px 40px;
+    margin-bottom: 20px;
+    margin-right: 13px;
+}
+
+.btn-pink, .btn-blue{
+    background-color: #dc3545;
+    color: white;
+    font-weight: 600 !important;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+/************
+Services Section
+************/
+
+.feature-text{
+    padding: 50px;
+    border: 2px solid #ddd;
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.feature-text h4{
+    margin: 40px 0px;
+}
+
+.feature-text:hover{
+    border-top: 6px solid #fb527a;
+    padding-top: 45px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.img-hover1{
+    background: url(icons/advertencia64.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img-hover2{
+    background: url(icons/face-mask64.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img-hover3{
+    background: url(icons/poster64.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img-hover4{
+    background: url(icons/fabricacion64.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img-hover5{
+    background: url(icons/instalacion.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.img-hover6{
+    background: url(icons/capacitacion.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.img-hover7{
+    background: url(icons/mantenimiento.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.img-hover8{
+    background: url(icons/pago.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+/**********
+About style starts
+**********/
+
+#about{
+    background: #f4f4f4;
+    padding: 120px;
+    margin-top: 60px;
+}
+
+.about-item{
+    background-color: white;
+    padding: 80px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about-item i{
+    font-size: 42px;
+    margin: 0;
+}
+
+.about-item h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-item hr{
+    width: 45px;
+    height: 3px;
+    background-color: #fb527a;
+    margin: 0 auto;
+    border: none;
+}
+
+.about-item p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-item:hover{
+    background-color: #fb527a;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: white;
+}
+.about-item:hover hr{
+    background-color: white;
+}
+
+.about-item,
+.about-item i,
+.about-item hr{
+    transition: all 400ms linear;
+}
+
+.about-item h3,
+.about-item p{
+    transition: all 400ms linear;
+}
